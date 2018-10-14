@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    stopOnError="true"
+    stopOnFailure="true">
+
+    <testsuites>
+        <testsuite name="FizzBuzz TestCase">
+            <directory suffix=".php">tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+             <directory suffix=".php">app</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <log type="coverage-html" target="./build/coverage" charset="UTF-8" yui="true" highlight="true"/>
+    </logging>
+</phpunit>
