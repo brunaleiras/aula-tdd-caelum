@@ -1,0 +1,14 @@
+{
+    "name": "vendor/caelum",
+    "description": "Projeto para implementação de TDD na Caelum",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "*"
+    },
+    "authors": [
+        {
+            "name": "Bruna Leiras",
+            "email": "brunaleiras@gmail.com"
+        }
+    ]
+}
