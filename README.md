@@ -5,7 +5,7 @@ Todo processo será baseado no seguinte desafio:
 
 http://dojopuzzles.com/problemas/exibe/fizzbuzz/
 
-** FizzBuzz **
+**FizzBuzz**
 Neste problema, você deverá exibir uma lista de 1 a 100, um em cada linha, com as seguintes exceções:
 
 * Números divisíveis por 3 deve aparecer como 'Fizz' ao invés do número;
@@ -23,5 +23,6 @@ Neste problema, você deverá exibir uma lista de 1 a 100, um em cada linha, com
 ## Iniciando o projeto
 
 Para criar um projeto com suporte ao PhpUnit é necessário usar o senguinte comando:
-
+```
 composer init --require=phpunit/phpunit:* 
+```
